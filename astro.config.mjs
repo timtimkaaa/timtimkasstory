@@ -20,6 +20,10 @@ export default defineConfig({
 					label: 'Reference',
 					items: [{ autogenerate: { directory: 'reference' } }],
 				},
+                {
+                    label: 'Memories',
+                    items: [{ autogenerate: { directory: 'memories' } }],
+                },
 			],
 		}),
 	],
