@@ -1,0 +1,24 @@
+---
+title: Welcome to Starlight
+description: Get started building your docs site with Starlight.
+template: splash # Remove or comment out this line to display the site sidebar on this page.
+---
+
+import { Card, LinkCard, CardGrid } from '@astrojs/starlight/components';
+
+## Next steps
+
+
+
+<CardGrid stagger>
+	<Card title="Change page layout" icon="document">
+		Delete `template: splash` in `src/content/docs/index.mdx` to display a
+		sidebar on this page.
+        <LinkCard
+            title="Update content"
+            icon="pencil"
+            href="./index.mdx"
+        />
+    </Card>
+</CardGrid>
+
